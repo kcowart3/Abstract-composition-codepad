@@ -18,15 +18,25 @@
 .main-box2 {
     display: inline-block;
     vertical-align: top;
-    position: relative;
-    left: 40px;
-    top: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
     background: red;
     width:400px;
     height:500px;
     padding:20px;
     margin-top:20px
 }
+
+.main-box3 {
+    display: inline-block;
+    vertical-align: top;
+    background: green;
+    width:400px;
+    height:1600px;
+    padding:20px;
+}
+
 
 .circle {
     position: absolute;
@@ -41,7 +51,7 @@
 
 }
 
-.circle > p{
+.circle > p {
     font-size: 20px;
     color: white;
 
